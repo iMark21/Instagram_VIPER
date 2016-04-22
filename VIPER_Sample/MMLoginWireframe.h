@@ -14,10 +14,5 @@
 @interface MMLoginWireframe : NSObject<MMLoginWireframeProtocol>
 
 @property (nonatomic, strong) MMLoginPresenter *presenter;
-//@property (nonatomic, strong) id <MMShowMediaPresenterProtocol> mediaPresenter;
-
-
-
-
 
 @end

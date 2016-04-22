@@ -39,10 +39,8 @@
     // Inject the dependencies into the presenter
     self.mediaPresenter = [[MMShowMediaPresenter alloc] init];
     self.mediaPresenter.mediaWireFrame = self;
-    
     self.viewController.mediaPresenter = self.mediaPresenter;
     self.mediaPresenter.mediaView = self.viewController;
-    
     self.mediaPresenter.mediaInteractor = [[MMShowMediaInteractor alloc] init];
 
 }
@@ -69,7 +67,6 @@
     
     if (_rootNavigationController == nil) {
         
-        // Inflate navigation controller for the search module from the story board
         _rootNavigationController = [[UIStoryboard storyboardWithName:@"Main"
                                                                bundle:[NSBundle mainBundle]] instantiateViewControllerWithIdentifier:@"loginNav"];
     }
@@ -83,7 +80,6 @@
     
     if (_viewController == nil) {
         
-        // Inflate view controller for the search results
         _viewController = [[UIStoryboard storyboardWithName:@"Main"
                                                      bundle:[NSBundle mainBundle]] instantiateViewControllerWithIdentifier:@"741"];
     }

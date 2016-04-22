@@ -80,14 +80,7 @@ NSString * const kURL = @"d89c44cbd9b84916a86cf2d09312fd21";
     NSDictionary *dictionary = [dataModels valueForKey:@"data"];
     
     for (NSDictionary *dataModel in dictionary) {
-        
-        /*
-         self.urlImage = [dictionary valueForKeyPath:@"images.low_resolution.url"];
-         self.numberLikes = [dictionary valueForKeyPath:@"likes.count"];
-         self.username = [dictionary valueForKeyPath:@"user.username"];
-         self.urlImageHD = [dictionary valueForKeyPath:@"images.standard_resolution.url"];
-         */
-        
+ 
         MMShowMediaItem *viewModel = [[MMShowMediaItem alloc] initWithUsername:[dataModel valueForKeyPath:@"user.username"] urlImage:[dataModel valueForKeyPath:@"images.low_resolution.url"] urlImageHD:[dataModel valueForKeyPath:@"images.standard_resolution.url"] numberLikes:[dataModel valueForKeyPath:@"likes.count"]];
         
         [viewModels addObject:viewModel];

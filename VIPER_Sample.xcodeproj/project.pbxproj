@@ -119,6 +119,8 @@
 			children = (
 				D01660861CCA27160046C49A /* MMModuleManager.h */,
 				D01660871CCA27160046C49A /* MMModuleManager.m */,
+				D0FCEEBD1CC0D56700182313 /* AppDelegate.h */,
+				D0FCEEBE1CC0D56700182313 /* AppDelegate.m */,
 			);
 			name = "Shared Services";
 			sourceTree = "<group>";
@@ -174,8 +176,6 @@
 				D026E94F1CC0E33C004B3787 /* Shared Services */,
 				D0FCEED21CC0D73000182313 /* Login Module */,
 				D0FCEED11CC0D72500182313 /* Show Item Module */,
-				D0FCEEBD1CC0D56700182313 /* AppDelegate.h */,
-				D0FCEEBE1CC0D56700182313 /* AppDelegate.m */,
 				D0FCEEC31CC0D56700182313 /* Main.storyboard */,
 				D0FCEEC61CC0D56700182313 /* Assets.xcassets */,
 				D0FCEEC81CC0D56700182313 /* LaunchScreen.storyboard */,

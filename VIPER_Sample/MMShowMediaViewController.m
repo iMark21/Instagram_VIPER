@@ -101,18 +101,7 @@
 
 - (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath
 {
-    
-    //MMMediaItem *media = media;
-    
-    
-//    MMMediaItem *media = [self.items objectAtIndex:indexPath.row];
-//    
-//    MMMediaDetailViewController *view = [[MMMediaDetailViewController alloc] initWithNibName:nil bundle:nil];
-//    
-//    view.mediaItem = media;
-//    
-//    
-//    [self.controller.navigationController pushViewController:view animated:YES];
+    //TO-DO
     
 }
 

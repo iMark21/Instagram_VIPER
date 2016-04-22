@@ -46,11 +46,8 @@
     
     // Inject the dependencies into the presenter
     self.presenter = [[MMLoginPresenter alloc] init];
-    
     self.presenter.loginWireframe = self;
-    
     self.presenter.userInterface = self.viewController;
-    
     self.presenter.loginInteractor = [[MMLoginInteractor alloc] init];
 }
 
@@ -127,8 +124,7 @@
 - (MMLoginViewController *)viewController {
     
     if (_viewController == nil) {
-        
-        // Inflate view controller for the search results
+
         _viewController = [[UIStoryboard storyboardWithName:@"Main"
                                                      bundle:[NSBundle mainBundle]] instantiateViewControllerWithIdentifier:@"loginBoard"];
     }
