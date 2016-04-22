@@ -17,16 +17,9 @@
 
 - (MMLoginPresenter*)getPresenter;
 
-/**
- *  Get the root navigation controller for the module
- *
- *  @return The root navigation controller
- */
 - (UINavigationController *)getUserInterface;
 
 - (void)presentFormForDataLogin: (MMLogin*)loginData;
-
-- (void)readyToPerformInstagramOAuth: (MMLogin*)data;
 
 - (void)readyToPerformMediaModule:(NSString*)tokenModule;
 

@@ -11,7 +11,7 @@
 #import "MMShowMediaPresenter.h"
 #import "MMLoginWireframeProtocol.h"
 
-@interface MMLoginWireframe : NSObject<MMLoginWireframeProtocol,MMShowMediaPresenterProtocol,MMShowMediaWireFrameProtocol>
+@interface MMLoginWireframe : NSObject<MMLoginWireframeProtocol>
 
 @property (nonatomic, strong) MMLoginPresenter *presenter;
 //@property (nonatomic, strong) id <MMShowMediaPresenterProtocol> mediaPresenter;
