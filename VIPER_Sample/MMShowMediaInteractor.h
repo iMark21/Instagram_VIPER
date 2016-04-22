@@ -9,8 +9,6 @@
 #import <Foundation/Foundation.h>
 #import "MMShowMediaInteractorProtocol.h"
 
-
-
 @interface MMShowMediaInteractor : NSObject <MMShowMediaInteractorProtocol>
 
 @end
